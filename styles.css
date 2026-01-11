@@ -482,7 +482,7 @@ footer {
 @media (max-width: 768px) {
 
     .nav-links,
-    .phone-cta {
+    .nav-cta {
         display: none;
     }
 
@@ -517,5 +517,41 @@ footer {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .logo-img {
+        height: 35px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .hero-buttons .btn-primary,
+    .hero-buttons .btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Improve Hero mobile background */
+    .hero-slide {
+        background-position: center top;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        /* Even smaller for very small screens */
     }
 }
